@@ -12,41 +12,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
     <script defer src="https://use.fontawesome.com/releases/v6.0.0/js/all.js" integrity="sha384-l+HksIGR+lyuyBo1+1zCBSRt6v4yklWu7RbG0Cv+jDLDD9WFcEIwZLHioVB4Wkau" crossorigin="anonymous"></script>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
-    <link rel="stylesheet" href="/resources/demos/style.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
+   
+
+    <link rel="shortcut icon" href="./assets/img/viajes.svg" type="image/x-svg"/>
     <script src="assets/js/script.js"></script>
     <link href="assets/css/style.css" type="text/css" rel="stylesheet">
 
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <script src="tooltip.js"></script>
-    <link href="tooltip.css" type="text/css" rel="stylesheet">
-
-    <link rel="shortcut icon" href="./assets/img/viajes.svg" type="image/x-svg"/>
-
-    <script>
-    /*
-    $( function() {
-      $( document ).tooltip();
-    } );
-    */
-    /*
-    $(document).ready(function () {
-        $('input[id=email]').tooltip({'trigger':'focus'});
-        $('body').tooltip({'trigger':'focus'});
-    });
-    */
-   /*
-    $(document).ready(function(){
-        $( document ).tooltip();
-
-    });
-    */
-
-    </script>
 
   </head>
 <body>
@@ -109,20 +80,29 @@
       <br>
       <br>
 
-    <div class="container-fluid text-center my-auto" style="color: white;">
+    <div class="container-fluid text-center my-auto oculto" style="color: white;">
       <h1 id="who">¿Quienes somos?</h1>
-      <div class="card" style="width: 100%;background: #3399ff; color: white;" >
+
+
+      <div class="card ocult" style="width: 100%;background: #3399ff; color: white;" >
       </div>
     </div>
 
-    <div class="container-fluid my-auto">
+    <div class="container-fluid my-auto oculto">
         <div class="row mx-auto m-2">
           <div class="col">
             <div class="card" style="width: 100%;background:black; color:white;" >
               <div class="card-body" >
                 <h5 class="card-title text-center my-auto" style="background: #3399ff; color: white;" ><i class="fa-solid fa-plane"></i></h5>
                 <p class="card-text"></p>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p class="card-text">Lorem 
+                  <span>AQUI!!!!!!
+                    <span class="mitooltip">
+                      AQUI ESTÁ MI TOOLTIP 01...
+                    </span>
+                  </span>
+                  
+                  consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 <p></p>
               </div>
             </div>
@@ -175,7 +155,7 @@
                 <img src="assets/img/card1.jpg" class="card-img-top" alt="..." >
                 <div class="card-body">
                   <h5 class="card-title">Sur montañas, Torres del paine</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text">Some quick text to build <span>AQUI!!!!!!<span class="mitooltip">AQUI ESTÁ MI TOOLTIP 01...</span></span> on the card title and make up the bulk of the card's content.</p>
                 </div>
           </div>
         </div>
@@ -184,7 +164,11 @@
               <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Norte</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Some quick example text to build 
+                  <span>AQUI!!!!!!
+                    <span class="mitooltip">AQUI ESTÁ MI TOOLTIP 01...
+                    </span>
+                    </span> on the card title and make up the bulk of the card's content.</p>
               </div>
           </div>
         </div>
@@ -193,7 +177,7 @@
               <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Norte, Salares</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Some quick example text to build <span>AQUI!!!!!!<span class="mitooltip">AQUI ESTÁ MI TOOLTIP 01...</span></span> on the card title and make up the bulk of the card's content.</p>
               </div>
           </div>
         </div>
@@ -202,7 +186,7 @@
                 <img src="assets/img/card4.jpg" class="card-img-top" style="width: 100%;">
                 <div class="card-body">
                   <h5 class="card-title">Sur, bosques</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text">Some quick example text to build <span>AQUI!!!!!!<span class="mitooltip">AQUI ESTÁ MI TOOLTIP 01...</span></span>on the card title and make up the bulk of the card's content.</p>
                 </div>
             </div>
         </div>
@@ -217,6 +201,12 @@
         <br>
     </div>
 
+    <div>
+
+      <div data-tf-widget="ceAdAh7B" data-tf-iframe-props="title=FullStackJS-TypeForm1" data-tf-medium="snippet" style="width:100%;height:400px;"></div>
+
+
+    </div>
 
 
       <div class="container-fluid text-center my-auto" style="background:white; color:black;padding: 4rem 0 4rem 0;">
@@ -225,12 +215,17 @@
         <br>
         <button class="btn btn-success">Comenzar</button>
         <br>
-        <div></div>
+
+
         <br>
       </div>
 
   </div>
 <br>
+
+
+
+
 
 
 
@@ -243,7 +238,6 @@
           <div >
             VIAJES CHILE
           </div>
-
       </div>
 
       <div class="col text-center" style="width: 100%;background: #3399ff; color: white;">
@@ -265,3 +259,31 @@
 </body>
 
 </html>
+
+<script src="//embed.typeform.com/next/embed.js"></script>
+    <script>
+    /*
+    $( function() {
+      $( document ).tooltip();
+    } );
+    */
+    /*
+    $(document).ready(function () {
+        $('input[id=email]').tooltip({'trigger':'focus'});
+        $('body').tooltip({'trigger':'focus'});
+    });
+    */
+   /*
+    $(document).ready(function(){
+        $( document ).tooltip();
+
+    });
+    */
+    $(document).ready(function(){
+        $('p').click(function(){
+            $('p').hide();
+        })
+    })
+
+
+    </script>
